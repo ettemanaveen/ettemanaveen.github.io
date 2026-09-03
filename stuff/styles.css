@@ -1,0 +1,52 @@
+body {
+   font-family: Segoe UI, Roboto, Helvetica, Arial;
+   background-color: lemonchiffon;
+}
+
+label {
+   display: inline-block;
+   width: 150px;
+}
+
+h1 {
+   font-weight: 800;
+   background: linear-gradient(90deg, #ff6a00, #ee0979, #8e2de2, #4a00e0);
+   background-clip: text;
+   color: transparent;
+   letter-spacing: 1px;
+   margin: 1.5rem 0;
+}
+
+button {
+   border: none;
+   background: linear-gradient(180deg, #4a00e0, #8e2de2);
+   color: #fff;
+   font-weight: 700;
+   padding: 0.85rem 1.2rem;
+   border-radius: 999px;
+   cursor: pointer;
+   transition: transform 120ms ease, box-shadow 160ms ease, background 160ms ease;
+   box-shadow: 0 8px 20px rgba(22, 163, 74, 0.30);
+}
+
+button:hover {
+   transform: translateY(-1px);
+   box-shadow: 0 10px 26px rgba(22, 163, 74, 0.35);
+}
+
+button:active {
+   transform: translateY(0);
+   box-shadow: 0 6px 16px rgba(22, 163, 74, 0.30);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+   padding: 10px;
+}
+
+input[type="color"] {
+   width: 80px;
+   height: 40px;
+}
