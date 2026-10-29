@@ -47,7 +47,7 @@ function generateStory() {
     const temperature = Math.round((94-32) * 5/9) + " Celsius";
 
     newStory = newStory.replace("300 pounds", weight);
-    newStory = newStory.replace("94 Fahrenheit", temperature);
+    newStory = newStory.replace("83 Fahrenheit", temperature);
   }
 
   // TODO: replace "" with the correct expression
